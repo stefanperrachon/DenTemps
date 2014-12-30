@@ -1,0 +1,491 @@
+#jquery-submit    {
+			background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#EEEEEE));
+			background-image: -moz-linear-gradient(bottom right, #FFFFFF 0%, #001F2E 100%);
+			margin:auto;
+			position:relative;
+			width:460px;
+			height:230px;
+			font-family: Tahoma, Geneva, sans-serif;
+			font-size: 12px;
+			font-style: italic;
+			line-height: 24px;
+			font-weight: bold;
+			color: white;
+			text-decoration: none;
+			-webkit-border-radius: 10px;
+			-moz-border-radius: 10px;
+			border-radius: 10px;
+			padding:10px;
+			border: 1px solid #999;
+			border: inset 1px solid #333;
+			-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+			-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+			box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+		}
+
+#jquery-submit-perm  /*change this for duplicate*/ {
+			background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#EEEEEE));
+			background-image: -moz-linear-gradient(bottom right, #FFFFFF 0%, #001F2E 100%);
+			margin:auto;
+			position:relative;
+			width:460px;
+			height:230px;
+			font-family: Tahoma, Geneva, sans-serif;
+			font-size: 12px;
+			font-style: italic;
+			line-height: 24px;
+			font-weight: bold;
+			color: white;
+			text-decoration: none;
+			-webkit-border-radius: 10px;
+			-moz-border-radius: 10px;
+			border-radius: 10px;
+			padding:10px;
+			border: 1px solid #999;
+			border: inset 1px solid #333;
+			-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+			-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+			box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+		}		
+		
+		
+input    {
+	width:375px;
+	display:block;
+	border: 1px solid #999;
+	height: 20px;
+	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	}
+	
+.sub_button {
+			width:100px;
+			position:absolute;
+			right:10px;
+			bottom:10px;
+			background:#09C;
+			color:#fff;
+			font-family: Tahoma, Geneva, sans-serif;
+			height:30px;
+			-webkit-border-radius: 15px;
+			-moz-border-radius: 15px;
+			border-radius: 15px;
+			border: 1p solid #999;
+			}
+.sub_button:hover {
+			background:#fff;
+			color:#09C;
+			}
+.fa-pencil-square-o:hover{
+			cursor:pointer;	 
+			color:#09C;
+}
+#replies_button{
+	font-size: 16px;
+	text-decoration:underline;
+    background:none;
+     border:none; 
+     padding:0;
+	 color:#069;
+cursor:pointer;	 
+width:100px;
+	text-align: left;
+}	 
+#replies_button:hover{
+text-decoration:underline;
+}
+#new_req_style{
+display: inline;
+font-weight: bold;
+}
+			
+#back_form	{
+		
+			/* Note: This gradient may render differently in browsers that don't support the unprefixed gradient syntax */
+
+			/* IE10 Consumer Preview */ 
+			background-image: -ms-linear-gradient(bottom right, #FFFFFF 0%, #001F2E 100%);
+
+			/* Mozilla Firefox */ 
+			background-image: -moz-linear-gradient(bottom right, #FFFFFF 0%, #001F2E 100%);
+
+			/* Opera */ 
+			background-image: -o-linear-gradient(bottom right, #FFFFFF 0%, #001F2E 100%);
+
+			/* Webkit (Safari/Chrome 10) */ 
+			background-image: -webkit-gradient(linear, right bottom, left top, color-stop(0, #FFFFFF), color-stop(1, #001F2E));
+
+			/* Webkit (Chrome 11+) */ 
+			background-image: -webkit-linear-gradient(bottom right, #FFFFFF 0%, #001F2E 100%);
+
+			/* W3C Markup, IE10 Release Preview */ 
+			background-image: linear-gradient(to top left, #FFFFFF 0%, #001F2E 100%);
+			
+			padding-bottom:20px;
+			
+			}
+ 
+ #bottom_border{
+	margin-bottom:60px;
+ }
+
+ #odd{
+		background-color: #D3D3D3;
+	}
+	
+	
+#delete_button{
+				width:60px;
+				float: right;
+				cursor:pointer;	 
+			}
+			
+#delete_button:hover{
+				background:#fff;
+				color:#09C;
+			}
+			
+table {
+border-collapse: collapse;
+	 display: table;
+    width: 95%;
+    table-layout: relative;
+	 margin-left: 5px; 
+	 padding-right: 105px; 
+	 	
+		
+}
+th{
+	text-align:left;
+}
+
+td {
+	padding-top:10px;
+	padding-bottom:10px;
+	}
+
+#date_cell {
+				width: 100px;
+			vertical-align: top;
+			text-align: left;	
+	}
+	
+#duration_cell {
+		width: 200px;
+			vertical-align: top;
+			text-align: left;			
+		
+	}
+#name_cell{
+		width: 100px;
+			
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		vertical-align: top;
+	}	
+#notes_cell{
+		width: 500px;	
+		overflow: auto;
+	}
+#city_cell{
+		width: 100px;
+			
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		vertical-align: top;	
+		
+	}
+#id_cell{
+width: 10px;
+}
+#edit_cell{
+width: 10px;
+}
+#replies_cell{
+			width: 100px;
+			
+			
+			}
+	
+#button_cell{
+			width: 10px;
+			text-align: center;
+			vertical-align: bottom;
+			}
+	
+#pos{
+		display:block;
+		
+		font-weight: bold;
+		color: white;
+		margin-left: 20px; 
+		
+		font-style: italic;
+	}
+
+#facebook{
+			position: fixed;
+			top:25%;
+			left:50%;
+			z-index:50;
+	
+}
+.facebook_block{
+	background-color:#9FC0FF;
+	border:2px solid #3B5998;
+	float:left;
+	height:30px;
+	margin-left:5px;
+	width:8px;
+        opacity:0;
+	-webkit-transform:scale(0.7);
+	-webkit-animation-name: facebook;
+ 	-webkit-animation-duration: .5s;
+ 	-webkit-animation-iteration-count: 2;
+ 	-webkit-animation-direction: linear;
+
+	}
+#block_1{
+ 	-webkit-animation-delay: .1s;
+ }
+#block_2{
+ 	-webkit-animation-delay: .2s;
+}
+#block_3{
+ 	-webkit-animation-delay: .3s;
+}
+@-webkit-keyframes facebook{
+	0%{-webkit-transform: scale(1.2);opacity:1;}
+	100%{-webkit-transform: scale(0.7);opacity:0.1;}
+}
+
+#present_link{
+		font-weight:900;
+		font-style:normal;
+		color:black; 
+		font-size: 22px;
+		text-decoration:none;
+}
+#link_resize{
+
+width:1000px;
+position:relative;
+}
+.temp_links_admin{
+			
+			float: left ;
+			font-size: 20px;
+			
+			font-style:italic;
+			padding-right:2%;
+			font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+			white-space: nowrap;
+			margin-left:25px;
+			margin-bottom: 20px;
+			margin-top: 1%;
+			
+			
+}
+a.a_class{
+color:grey; 
+}
+
+#update_table{
+background-color: #ededed;
+background-attachment: fixed;
+color:#4088b8;
+font-size: 24px;
+font-weight: 700;
+margin-top:10px;
+padding-top:10px;
+width: 83%;
+height: 40px;
+padding-right:15%;
+text-align:center;		
+margin-right:20px;
+display:none;
+
+
+}
+
+
+		.animated{
+    -webkit-animation-delay: 0.5s;
+	-moz-animation-delay: 0.5s;
+	-ms-animation-delay: 0.5s;
+	-o-animation-delay: 0.5s;
+	animation-delay: 0.5s;
+	
+-webkit-animation-fill-mode:both;
+-moz-animation-fill-mode:both;
+-ms-animation-fill-mode: none;
+-o-animation-fill-mode:both;
+animation-fill-mode: none;
+
+-webkit-animation-duration:4s;
+-moz-animation-duration:2s;
+-ms-animation-duration:2s;
+-o-animation-duration:4s;
+animation-duration:2s;  
+}
+
+@-webkit-keyframes fadeInLeft {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateX(-30px);
+	}	25% {
+		opacity: 1;
+		-webkit-transform: translateX(0);
+	}
+    75% {
+		opacity: 1;
+		-webkit-transform: translateX(0);
+	}
+    100% {
+		opacity: 0;
+		-webkit-transform: translateX(30px);
+	}
+}
+
+@keyframes fadeInLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(0);
+	}	25% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+    75% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+    100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@-o-keyframes fadeInLeft {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateX(-30px);
+	}	25% {
+		opacity: 1;
+		-webkit-transform: translateX(0);
+	}
+    75% {
+		opacity: 1;
+		-webkit-transform: translateX(0);
+	}
+    100% {
+		opacity: 0;
+		-webkit-transform: translateX(30px);
+	}
+}
+
+
+
+.fadeInLeft {
+	
+	-webkit-animation-name: fadeInLeft;
+	-moz-animation-name: fadeInLeft;
+	-o-animation-name: fadeInLeft;
+	animation-name: fadeInLeft;
+}
+
+/******   Replies page ***************/
+#data_style{
+float:left;
+padding-left:125%;
+margin-top: 30px;
+width:95%;
+font-family:Calibri;
+}
+
+#replies_dec{
+
+width:15%;
+height:1000px;
+position:relative;
+background: blue;
+border-radius: 4px 3px 6px / 2px 4px;
+box-shadow: 10px 10px 5px #888888;
+}
+
+#need_style{
+font-size:22px;
+margin-bottom: 50px;
+width:800px;
+font-weight:200;
+}
+
+#replies_style{
+font-size:18px;
+margin-left:15%;
+
+}
+
+#replies_style_in{
+padding-top:10px;
+
+width:500px;
+min-height:100px;
+
+}
+#replies_ident{
+float: left;
+width:50%;
+
+}
+#date_time_notes{
+float:left;
+width:50%;
+}
+
+#go_back_link  a:visited{
+color:blue;
+}
+
+#rep_nam{
+font-weight: bold;
+letter-spacing:1px;
+border-top: 1px solid #000;
+width:450px;
+padding-top:10px;
+padding-bottom:5px;
+
+}
+
+#rep_email{
+padding-top:5px;
+font-size:11px;
+}
+#dt_ts{
+color: red;
+letter-spacing:1px;
+margin-left: -70px;
+padding-top:10px;
+}
+#notes_rep{
+padding-top:10px;
+width:400px;
+min-height:50px;
+padding-bottom:10px;
+}
+#office_name{
+display:inline;
+font-weight:bold;
+
+}
+#need_date{
+display:inline;
+color: blue;
+}
+#{}
+#{}
+#{}
+#{}
+#{}
